@@ -1,9 +1,11 @@
 #include <stdio.h>
 
+/*Replace white space with character representation*/
 int main()
 {
     int c;
-    while ((c = getchar()) != EOF) {
+    while ((c = getchar()) != EOF) 
+    {
         if (c == '\t')
             printf("\\t");
         else if (c == ' ')
