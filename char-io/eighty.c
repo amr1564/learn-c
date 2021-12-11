@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAXLINE 1000
 
-/*Print all lines greater than bound*/
+/*Print all lines greater than the bound*/
 
 int getLine(char line[], int limit);
 void copy(char from[], char to[]);
